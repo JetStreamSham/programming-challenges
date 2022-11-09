@@ -102,6 +102,7 @@ const BezierEasing = require("bezier-easing");
 
   spinner.element.btn.addEventListener("click", () => spinner.spin.call(spinner));
   spinner.insertChallenges(6);
+  console.log("aaa");
 
 })();
 
